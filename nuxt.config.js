@@ -24,6 +24,9 @@ export default {
   */
   css: [
   ],
+  router: {
+    base: '/corona/'
+  },
   /*
   ** Plugins to load before mounting the App
   */
