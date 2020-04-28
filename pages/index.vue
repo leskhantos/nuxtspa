@@ -260,9 +260,9 @@ export default {
    }
   },
   async fetch () {
-    this.data = await this.$axios.$get('https://corona.lmao.ninja/all')
-    this.dataKZ = await this.$axios.$get('https://corona.lmao.ninja/countries/KZ')
-    this.dataRU = await this.$axios.$get('https://corona.lmao.ninja/countries/RUS')
+    this.data = await this.$axios.$get('https://corona.lmao.ninja/v2/all')
+    this.dataKZ = await this.$axios.$get('https://corona.lmao.ninja/v2/countries/KZ')
+    this.dataRU = await this.$axios.$get('https://corona.lmao.ninja/v2/countries/RUS')
   }
 }
 </script>
